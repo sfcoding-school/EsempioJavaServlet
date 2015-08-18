@@ -16,4 +16,15 @@ public class View extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println(result);
 	}
+
+	public void doGet(HttpServletRequest request,HttpServletResponse response) throws IOException, ServletException {
+		//String c = request.getParameter("color");
+		Model modello = new Model();
+		String result = modello.saluta();
+		
+		response.setContentType("text/html");
+		
+		PrintWriter out = response.getWriter();
+		out.println(result);
+	}
 }
