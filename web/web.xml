@@ -6,13 +6,13 @@
   metadata-complete="true">
 
 <servlet>
-	<servlet-name> TEST1 </servlet-name>
+	<servlet-name>view</servlet-name>
 	<servlet-class>com.example.web.View</servlet-class>
 </servlet>
 
 <servlet-mapping>
-<servlet-name> TEST1 </servlet-name>
-<url-pattern>/test1.do</url-pattern>
+<servlet-name>view</servlet-name>
+<url-pattern>/view.do</url-pattern>
 </servlet-mapping>
 
 </web-app>
