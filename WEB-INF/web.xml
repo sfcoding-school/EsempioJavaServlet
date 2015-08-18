@@ -7,7 +7,7 @@
 
 <servlet>
 	<servlet-name> TEST1 </servlet-name>
-	<servlet-class>com.example.web.view</servlet-class>
+	<servlet-class>com.example.web.View</servlet-class>
 </servlet>
 
 <servlet-mapping>
