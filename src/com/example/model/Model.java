@@ -1,8 +1,8 @@
 package com.example.model;
 
 
-public class Model{
-	public String saluta(){
-		return "salutoMODELLO";
-	}
+public class Model {
+public String saluta(){
+								return "salutoMODELLO";
+}
 }
